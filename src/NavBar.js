@@ -1,6 +1,9 @@
-export default function NarBar() {
+import './NavBar.css'
+
+export default function NavBar() {
   return (
-  <navbar>
-  </navbar>
+  <div className="navbar">
+    
+  </div>
   );
 }
