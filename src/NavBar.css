@@ -1,4 +1,30 @@
 .navbar {
-  min-height: 200px;
-  background: #AF2;
+  min-height: 60px;
+  background: #103355;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
 }
+
+.barright{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
+  grid-column: 1 / 2;
+  padding: 5px;
+}
+
+.barright div{
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  margin: auto;
+}
+
+.barright div:hover {
+  background-color: #315375;
+}
+
