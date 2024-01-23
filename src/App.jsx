@@ -15,9 +15,9 @@ function App() {
           <p>Casita</p>
         </div>
         <div className='centerFooter'>
-          <p>&copy;</p>
+          <p>&copy; 2023 Pedro Aaron Espinoza Vargas</p>
         </div>
-        <div>Rojito</div>
+        <div style={{textAlign: "right"}}>Rojito</div>
       </footer>
     </div>
   );

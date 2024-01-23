@@ -1,6 +1,6 @@
 .navbar {
   min-height: 50px;
-  background: #222;
+  background: #333;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
 }
@@ -18,13 +18,7 @@
   align-items: center;
 }
 
-a {
-  color: white;
-  font-weight: bold;
-  margin: auto;
+.barright .rounded-md a {
+  width: 100%;
+  height: 100%;
 }
-
-.barright div:hover {
-  background-color: #315375;
-}
-

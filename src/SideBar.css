@@ -3,8 +3,14 @@ div.SideBar {
     float: left;
 }
 
-a {
+.SideBar a {
     display: flex;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+a:hover{
+    background: #2AA;
 }
 
 img.icon {
